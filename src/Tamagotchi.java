@@ -29,4 +29,14 @@ public void makeSound(){
 }
 
 
+    public void showInfo() {
+        System.out.println("Name: " + this.name);
+        System.out.println("Age: " + this.age);
+        System.out.println("Mood: " + this.mood);
+        System.out.println("Energy: " + this.energy);
+    }
+
+    public String getName() {
+        return this.name;
+    }
 }
